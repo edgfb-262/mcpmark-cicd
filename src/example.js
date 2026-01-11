@@ -1,6 +1,4 @@
-const unusedVariable = 'this is unused';
-function badCode() {
-  console.log("Double quotes here, no semicolon")
-  let anotherUnused = 456
+function goodCode() {
+  console.log('Single quotes, semicolon here');
 }
-badCode();
+goodCode();
